@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "testcafe chrome:headless testcafe-suite"
+    "test": "testcafe chrome:headless testcafe-suite --no-sandbox"
   },
   "dependencies": {
     "next": "10.x",
