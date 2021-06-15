@@ -9,3 +9,4 @@ test('homepage', async (t) => {
   .expect(Selector('h1').innerText)
   .eql('Welcome to Next.js!');
 });
+
